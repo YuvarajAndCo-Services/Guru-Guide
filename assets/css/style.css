@@ -17,6 +17,10 @@ a {
   color: #5fcf80;
 }
 
+.audiofile{
+  color: white;
+  background-color: #000000;
+}
 a:hover {
   color: #86db9f;
   text-decoration: none;
