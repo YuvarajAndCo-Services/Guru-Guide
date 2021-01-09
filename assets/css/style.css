@@ -12,7 +12,27 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+audio{
+  width: 400px;
+}
+@media screen and (max-width: 450px) {
+  audio{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  audio{
+    width: 240px;
+  }
+}
+@media screen and (max-width: 250px) {
+  audio{
+    width: 140px;
+  }
+}
+.interview-img{
+  width: 100px;
+}
 a {
   color: #5fcf80;
 }
@@ -20,6 +40,7 @@ a {
 .audiofile{
   color: white;
   background-color: #000000;
+
 }
 a:hover {
   color: #86db9f;
